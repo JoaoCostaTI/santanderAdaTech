@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+
+            <table border="2" >
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matricula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Carol</td>
+                        <td>carol.d@fiemg.com.br</td>
+                        <td>0102886</td>
+                    </tr>
+                    <tr>
+                        <td>Joao</td>
+                        <td>joao.d@fiemg.com.br</td>
+                        <td>0102890</td>
+                    </tr>
+                    <tr>
+                        <td>Costa</td>
+                        <td>costa.d@fiemg.com.br</td>
+                        <td>0102811</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="finance">
+            <h2>Tabela de controle Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/05/2024</td>
+                        <!-- <td colspan="2">Despesa</td> -->
+                        <td >Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$35</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Receita</td>
+                        <td>Salario</td>
+                        <td>R$3798</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
